@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url(./sunset-sky-afterglow-evening-sky-159020.webp) center center no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.main{
+    width: 450px;
+    height: min-content; 
+   padding: 10px;  
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0 8px 32px 0 rgb(0, 0, 0,0.6) ;
+   backdrop-filter: blur(3.6px);
+}
+
+#text{
+    padding:10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+}
+#search{
+    padding:6px;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+}
+.main2{
+    color: #fff;
+}
+.weather{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.main2{
+    display: none;
+}
+.temperature{
+    font-size: 80px;
+
+}
+.details{
+    display: flex;
+    gap:10px;
+    font-weight: bold;
+    align-items: center;
+}
+.humidity,.wind{
+    font-size: 19px;
+
+}
+.notfound{
+    display: none;
+    color: #fff;
+}
+@media (max-width:850px) {
+    body{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        margin: 20px;
+        width: 85%;
+    }
+        #text{
+            width: 50%;
+        }
+        .weather{
+            flex-direction: column;
+            align-items: center;
+        }
+}
