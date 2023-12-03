@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #353333;
+}
+.nav-bar{
+    width: 100%;
+    height: 55px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+#about{
+    padding: 20px;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.division{
+    width: 100%;
+    height: 5px;
+    background-color: #927777;
+}
+.main1{
+    
+    color: #fff;
+}
+.connect{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.linkedin-icon a,.githubicon a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.main1>h1{
+    font-family: 'Anton', sans-serif;
+}
+.main1>p{
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+}
+.main2{
+    height: min-content;
+    padding: 10px;
+}
+.frontend{
+    width: 40%;
+    height: min-content;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Lato', sans-serif;
+    
+}
+.frontend h1{
+    text-align: center;
+    color: #fff;
+
+}
+#content{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+
+}
+.skillsknown{
+    text-align: center;
+}
+#skills{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+}
+.item{
+    padding: 5px 15px;
+    margin: 10px 2px;
+    border-radius: 6px;
+    color:#fff;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    background-color: #353333;
+    cursor: pointer;
+    transition:all 0.3s ease-in-out;
+}
+.item:hover{
+    background-color: #161515;
+}
+.Backend{
+    border-radius: 15px;
+    width: 40%;
+    height: min-content;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.Backend h1{
+    text-align: center;
+    color: #fff;
+}
+#experience{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    font-family: 'Rubik', sans-serif;
+}
+#expma{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.experienceitems{
+    width: 40%;
+    text-align: center;
+    padding: 20px ;
+    border-radius: 20px;
+    background-color: #353333;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    box-shadow: 0px 10px 20px 5px rgba(225, 25, 0, 0.5);
+}
+.expimain{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#main4 h1{
+    text-align: center;
+    color: #fff;
+}
+.projectmain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projectmain2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#personalprojects{
+    font-family: 'Rubik', sans-serif;
+}
+.projects{
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 30%;
+    height: min-content;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    background-color: #353333;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+.projects p{
+    margin-top: 10px;
+}
+.icons{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+#main5{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background-color: #353333;
+}
+#main5 h1{
+    text-align: center;
+    color: #fff;
+}
+#contact{
+    font-family: 'Rubik', sans-serif;
+}
+.form{
+    width: min-content;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #403e3e;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Lato', sans-serif;
+}
+form label{
+    font-size: 25px;
+}
+input{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid blue;
+    margin-top: 5px;
+    background: transparent;
+    margin-bottom: 10px;
+}
+#submit{
+    outline: none;
+    background-color: #353333;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:all 0.3s ease-in-out;
+}
+#submit:hover{
+    background-color: #161515;
+}
+@media screen and (max-width:850px) {
+    #content{
+        align-items: center;
+        flex-direction: column;
+    }
+    .projectmain,.projectmain2{
+        flex-direction: column;
+    }
+    .projects{
+        width: 80%;
+    }
+    #main5{
+        padding: 15px;
+        gap: 10px;
+        flex-direction: column;
+    }
+}
