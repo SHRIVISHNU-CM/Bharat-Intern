@@ -2,4 +2,4 @@
 
 weather-app demo link :https://sparkling-daffodil-29ee41.netlify.app/
 
-Netflix demo link: https://superlative-otter-4a3727.netlify.app/
+Portfolio demo link: https://app.netlify.com/sites/aesthetic-melomakarona-6bf5b4/overview
